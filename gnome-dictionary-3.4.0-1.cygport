@@ -1,0 +1,9 @@
+inherit gnome2
+
+
+PKG_NAMES="${PN} libgdict1.0_6 libgdict1.0-devel"
+gnome_dictionary_CONTENTS="--exclude=gdict-1.0 --exclude=gtk-doc etc/ usr/bin/*.exe usr/share/"
+libgdict1_0_6_CONTENTS="usr/bin/cyggdict-1.0-6.dll usr/share/gdict-1.0/"
+libgdict1_0_devel_CONTENTS="usr/include/ usr/lib/libgdict* usr/lib/pkgconfig/ usr/share/gtk-doc/"
+
+KEEP_LA_FILES="none"

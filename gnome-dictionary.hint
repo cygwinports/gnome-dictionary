@@ -1,0 +1,6 @@
+category: Gnome
+requires: libcairo2 libgdict1.0_6 libglib2.0_0 libgtk3_0 libintl8 libpango1.0_0
+sdesc: "GNOME dictionary"
+ldesc: "Includes six GNOME Desktop utilities: baobab (filesystem monitor),
+gnome-dictionary, gnome-font-viewer, gnome-screenshot, gnome-search-tool, and
+gnome-system-log."
