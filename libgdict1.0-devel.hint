@@ -1,7 +1,0 @@
-category: Gnome
-requires: libgdict1.0_6 libglib2.0-devel libgtk3-devel libpango1.0-devel
-external-source: gnome-dictionary
-sdesc: "GNOME dictd dictionary library (development)"
-ldesc: "Includes six GNOME Desktop utilities: baobab (filesystem monitor),
-gnome-dictionary, gnome-font-viewer, gnome-screenshot, gnome-search-tool, and
-gnome-system-log."
