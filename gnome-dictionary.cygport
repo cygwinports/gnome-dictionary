@@ -1,7 +1,7 @@
 inherit gnome2
 
 NAME="gnome-dictionary"
-VERSION=3.6.0
+VERSION=3.8.0
 RELEASE=1
 CATEGORY="GNOME"
 SUMMARY="GNOME dictionary"
@@ -9,7 +9,7 @@ DESCRIPTION="Includes six GNOME Desktop utilities: baobab (filesystem monitor),
 gnome-dictionary, gnome-font-viewer, gnome-screenshot, gnome-search-tool, and
 gnome-system-log."
 
-PKG_NAMES="${PN} libgdict1.0_6 libgdict1.0-devel"
+PKG_NAMES="${NAME} libgdict1.0_6 libgdict1.0-devel"
 gnome_dictionary_CONTENTS="--exclude=gdict-1.0 --exclude=gtk-doc etc/ usr/bin/*.exe usr/share/"
 libgdict1_0_6_CONTENTS="usr/bin/cyggdict-1.0-6.dll usr/share/gdict-1.0/"
 libgdict1_0_devel_CONTENTS="usr/include/ usr/lib/libgdict* usr/lib/pkgconfig/ usr/share/gtk-doc/"
