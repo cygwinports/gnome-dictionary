@@ -1,20 +1,10 @@
-inherit gnome2
+inherit gnome.org meson
 
 NAME="gnome-dictionary"
-VERSION=3.24.0
+VERSION=3.26.1
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="GNOME dictionary"
 DESCRIPTION="Includes six GNOME Desktop utilities: baobab (filesystem monitor),
 gnome-dictionary, gnome-font-viewer, gnome-screenshot, gnome-search-tool, and
 gnome-system-log."
-
-PKG_NAMES="${NAME} libgdict1.0_10 libgdict1.0-common libgdict1.0-devel girepository-Gdict1.0"
-gnome_dictionary_CATEGORY="GNOME"
-gnome_dictionary_CONTENTS="--exclude=gdict-1.0 --exclude=gtk-doc --exclude=gir-1.0 usr/bin/*.exe usr/share/"
-libgdict1_0_10_REQUIRES="libgdict1.0-common"
-libgdict1_0_10_OBSOLETES="libgdict1.0_6"
-libgdict1_0_10_CONTENTS="usr/bin/cyggdict-1.0-10.dll"
-libgdict1_0_common_CONTENTS="usr/share/gdict-1.0/"
-libgdict1_0_devel_CONTENTS="usr/include/ usr/lib/libgdict* usr/lib/pkgconfig/ usr/share/gtk-doc/"
-girepository_Gdict1_0_CONTENTS="usr/*/gir*/Gdict-1.0.*"
